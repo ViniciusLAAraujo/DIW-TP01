@@ -1,0 +1,478 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+/*HEADER*/
+
+header {
+    background-color: black;
+    color: rgb(211, 82, 104);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_logo {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.icon_logo,
+.icon_logo:hover,
+.icon_logo:active,
+.icon_logo:focus {
+    margin-top: 10px;
+    font-size: 40px;
+    color: rgb(211, 82, 104);
+    text-decoration: none;
+}
+
+.liheader {
+    color: rgb(211, 82, 104);
+}
+
+.liheader:focus {
+    color: rgb(211, 82, 104);
+}
+
+.liheader:visited {
+    color: rgb(211, 82, 104);
+}
+
+.liheader:visited:hover {
+    color: white;
+}
+
+.liheader:hover {
+    color: white;
+}
+
+.icon_search {
+    color: rgb(211, 82, 104);
+    border-color: rgb(211, 82, 104);
+    box-shadow: none;
+}
+
+.icon_search:hover {
+    color: rgb(211, 82, 104);
+    border-color: rgb(211, 82, 104);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.icon_search:focus {
+    color: rgb(211, 82, 104);
+    border-color: rgb(211, 82, 104);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.icon_search:active {
+    color: rgb(211, 82, 104);
+    border-color: rgb(211, 82, 104);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.icon_search:active:focus {
+    box-shadow: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 20px;
+}
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+#header_shearch {
+    margin-top: 20px;
+}
+
+/*MAIN*/
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+main {
+    background-color: rgb(211, 82, 104);
+}
+
+#load_more {
+    text-align: right;
+}
+
+.load_m {
+    color: rgb(211, 82, 104);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+/*Destaque*/
+.dpdown,
+.dpdown:hover,
+.dpdown:active,
+.dpdown:focus {
+    color: rgb(211, 82, 104);
+    background-color: black;
+}
+
+.dropdown {
+    text-align: right;
+}
+
+.card {
+    color: rgb(211, 82, 104);
+    text-align: center;
+    background-color: black;
+}
+
+.card:hover{
+    transform: scale(105%);
+}
+
+.card-text {
+    text-align: center;
+}
+
+
+
+/*Avaliações*/
+.img_aval {
+    border-radius: 50%;
+}
+
+#avaliacoes {
+    color: rgb(211, 82, 104);
+    background-color: rgb(0, 0, 0, 0.7);
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/*Making of & Entrevistas*/
+#makingof {
+    margin-top: 20px;
+}
+
+/*Novidades*/
+.type_nov {
+    color: rgb(211, 82, 104);
+    background-color: black;
+}
+
+/*Editorial*/
+#editorial {
+    margin-top: 50px;
+}
+
+
+/*Redes Sociais*/
+#icon_rs {
+    font-size: 40px;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#redes_sociais {
+    margin-top: 100px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    color: rgb(211, 82, 104);
+    width: 100%;
+}
+
+#footer_info {
+    text-align: center;
+    padding: 0%;
+    padding-top: 15px;
+
+}
+
+#footer_logo {
+    text-align: left;
+    padding: 0%;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .header-fix {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 994;
+    }
+
+    .header nav {
+        display: absolute !important;
+        width: 100%;
+        height: 100%;
+        z-index: 995;
+    }
+
+
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden !important;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        z-index: 996;
+    }
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        z-index: 997;
+    }
+
+    .menu li a {
+        display: block;
+        text-align: center;
+        width: 100%;
+        z-index: 998;
+
+    }
+
+    .menu-icon {
+        width: 50px;
+        height: inherit;
+        display: block;
+        position: absolute !important;
+        top: 15px;
+        right: 30px;
+        line-height: 60px;
+        color: rgb(211, 82, 104);
+        z-index: 999;
+    }
+
+    #menuToggle:checked~label i:nth-child(2) {
+        display: block;
+    }
+
+    #menuToggle:checked~label i:first-child {
+        display: none;
+    }
+
+    #menuToggle:not(:checked)~label i:first-child {
+        display: block;
+    }
+
+    #menuToggle:not(:checked)~label i:nth-child(2) {
+        display: none;
+    }
+
+    #menuToggle:checked~ul {
+        height: 100%;
+    }
+
+    .menu-icon i {
+        font-size: 1.7em;
+    }
+
+    #header_shearch {
+        display: none;
+    }
+
+    #title_func,
+    #sobre,
+    #editorial,
+    #redes_sociais {
+        text-align: center;
+    }
+
+    .car_videos {
+        height: 350px;
+        width: 300px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .card {
+        margin-bottom: 40px;
+    }
+
+    .img_aval {
+        width: 250px;
+        height: 200px;
+        margin-left: 8px;
+    }
+
+    #mko_videos {
+        margin-bottom: 5px;
+    }
+
+    .mko_content {
+        padding: 10px;
+    }
+
+    #avaliacoes {
+        color: rgb(211, 82, 104);
+        background-color: rgb(0, 0, 0, 0.7);
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        border-radius: 20px;
+    }
+
+    .aval_title {
+        margin-top: 20px;
+    }
+
+    .bt_nov {
+        display: none;
+    }
+
+    .img_nov {
+        width: 303px;
+        height: 220px;
+    }
+
+    #redes_sociais {
+        margin-bottom: 20px;
+    }
+
+    #footer_logo {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+
+
+
+    #header_shearch {
+        margin-bottom: 20px;
+    }
+
+    #title_func,
+    #sobre,
+    #editorial,
+    #redes_sociais {
+        text-align: center;
+    }
+
+    .car_videos {
+        height: 472px;
+        width: 872px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .img_aval {
+        width: 309px;
+        height: 309px;
+    }
+
+    #avaliacoes {
+        color: rgb(211, 82, 104);
+        background-color: rgb(0, 0, 0, 0.7);
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        border-radius: 20px;
+    }
+
+    #img_out {
+        width: 50%;
+        height: 345px;
+        margin-left: 175px;
+    }
+
+    #mko_videos {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+
+    .mko_yt {
+        width: 450px;
+        height: 400px;
+    }
+
+    .mko_prg {
+        text-align: center;
+    }
+
+    .img_nov {
+        width: 167px;
+        height: 155px;
+    }
+
+    #redes_sociais {
+        margin-bottom: 20px;
+    }
+
+    #footer_logo {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 1201px) {
+
+    .car_videos {
+        height: 472px;
+        width: 872px;
+    }
+
+    .img_aval {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mko_yt {
+        width: 450px;
+        height: 400px;
+    }
+
+    .img_nov {
+        width: 167px;
+        height: 155px;
+    }
+
+}

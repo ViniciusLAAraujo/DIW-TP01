@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Otter Portal de Filmes</title>
+
+
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- Fontawesome 6.1.1 - 04/2022 -->
+    <script src="https://kit.fontawesome.com/885a903cae.js" crossorigin="anonymous"></script>
+
+    <!-- CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Icone do Site-->
+    <link rel="icon" class="icon" type="icon"
+        href="https://varejointeligente.cdlbh.com.br/wp-content/uploads/2020/01/logo-puc-minas.png">
+    <!-- FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header-fix">
+
+        <div class="container-fluid header">
+            <section class="row">
+                <div id="header_logo" class="col-xl-3 col-md-1 col-md-1 col-sm-10">
+                    <a href="#" class="fa-solid fa-otter icon_logo"></a>
+                </div>
+
+                <div id="header_nav" class="col-xl-6 col-lg-11 col-md-11 col-sm-2">
+                    <nav class="nav nav-pills flex-column flex-sm-row">
+                        <input type="checkbox" id="menuToggle">
+                        <label for="menuToggle" class="menu-icon">
+                            <i class="fa fa-bars"></i>
+                            <i class="fa fa-times-circle"></i>
+                        </label>
+                        <ul class="menu">
+                            <li><a class="flex-sm-fill text-sm-center nav-link liheader"
+                                    href="#lancamentos">Lançamentos</a></li>
+                            <li><a class="flex-sm-fill text-sm-center nav-link liheader" href="#destaque">Em
+                                    Destaque</a></li>
+                            <li> <a class="flex-sm-fill text-sm-center nav-link liheader"
+                                    href="#avaliacoes">Avaliações</a></li>
+                            <li><a class="flex-sm-fill text-sm-center nav-link liheader" href="#makingof">MakinkOf &
+                                    Entrevistas</a></li>
+                            <li><a class="flex-sm-fill text-sm-center nav-link liheader" href="#novidades">Novidades</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div id="header_shearch" class="col-xl-3 col-lg-12">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success icon_search" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+            </section>
+        </div>
+
+    </header>
+
+    <main class="container-fluid main">
+
+        <!-- Lancamentos -->
+        <section id="lancamentos" class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="container-fluid">
+                    <section id="title_func" class="row">
+                        <div class="col-12">
+                            <h1><b>Lançamentos</b></h1>
+                        </div>
+                    </section>
+                    <section id="carousel" class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="row" style="margin-bottom: 35px;">
+                                            <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/aWzlQ2N6qqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                            <div class="col-xl-6 col-lg-12 col-md-12" style="min-height: 294px;">
+                                                <iframe class="car_videos" width="100%" height="100%"
+                                                    src="https://www.youtube.com/embed/aWzlQ2N6qqg"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-12 col-md-12">
+
+                                                <div class="row ">
+                                                    <div class="col-md-12 col-lg-4">
+                                                        <h3>Doctor Strange Multiverse Of Madness</h3>
+                                                        <b>Diretor/a:</b> Sam Raimi
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <p>
+                                                            <b>Roteiro:</b> O aguardado filme trata da jornada do Doutor
+                                                            Estranho rumo ao desconhecido. Além de receber ajuda de
+                                                            novos
+                                                            aliados místicos e outros já conhecidos do público, o
+                                                            personagem
+                                                            atravessa as realidades alternativas incompreensíveis e
+                                                            perigosas do Multiverso para enfrentar um novo e misterioso
+                                                            adversário.
+                                                        </p>
+
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <b>Elenco:</b>
+                                                        <ul>
+                                                            <li>Benedict Cumberbatch</li>
+                                                            <li>Elizabeth Olsen</li>
+                                                            <li>Patrick Stewart</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Estreia:</b> 5/05/2022
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Avalicao:</b> ★★★★★
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row" style="margin-bottom: 35px;">
+                                            <div class="col-xl-6 col-lg-12 col-md-12" style="min-height: 294px;">
+                                                <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/S55qvOKW5T0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                                <iframe class="car_videos" width="100%" height="100%"
+                                                    src="https://www.youtube.com/embed/S55qvOKW5T0"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-12 col-md-12">
+
+                                                <div class="row ">
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <h3>Morbius</h3>
+                                                        <b>Diretor/a:</b> Daniel Espinosa
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <p><b>Roteiro:</b> Um dos personagens mais interessantes e
+                                                            conflituosos da Marvel chega à tela grande com o vencedor do
+                                                            Oscar Jared Leto se transformando no enigmático anti-herói
+                                                            Michael Morbius. Gravemente adoecido com um raro distúrbio
+                                                            sanguíneo e determinado a salvar outros que sofrem do mesmo
+                                                            destino, o Dr. Morbius arrisca tudo numa aposta desesperada.
+                                                            E
+                                                            embora a princípio tudo pareça um sucesso absoluto, surge
+                                                            uma
+                                                            escuridão que se desencadeia dentro dele. O bem superará o
+                                                            mal -
+                                                            ou Morbius sucumbirá aos seus novos e misteriosos desejos?
+                                                        </p>
+
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <b>Elenco:</b>
+                                                        <ul>
+                                                            <li>Jared Leto</li>
+                                                            <li>Michael Keaton</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Estreia:</b> 01/04/2022
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Avalicao:</b> ★★★☆☆
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="row" style="margin-bottom: 35px;">
+                                            <div class="col-lg-6 col-md-12" style="min-height: 294px;">
+                                                <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/rsQEor4y2hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                                                <iframe class="car_videos" width="100%" height="100%"
+                                                    src="https://www.youtube.com/embed/rsQEor4y2hg"
+                                                    title="YouTube video player" frameborder="0"
+                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-12 col-md-12">
+
+                                                <div class="row ">
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <h3>The Batman</h3>
+                                                        <b>Diretor/a:</b> Matt Reeves
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <p>
+                                                            <b>Roteiro:</b> Após dois anos espreitando as ruas como
+                                                            Batman,
+                                                            Bruce Wayne se encontra nas profundezas mais sombrias de
+                                                            Gotham
+                                                            City. Com poucos aliados confiáveis, o vigilante solitário
+                                                            se
+                                                            estabelece como a personificação da vingança para a
+                                                            população.
+                                                        </p>
+
+                                                    </div>
+
+                                                    <div class="col-md-12 col-lg-12 col-xl-4">
+                                                        <b>Elenco:</b>
+                                                        <ul>
+                                                            <li>Robert Pattinson</li>
+                                                            <li>Zoë Kravitz</li>
+                                                            <li>Paul Dano</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Estreia:</b> 03/03/2022
+                                                </div>
+
+                                                <div class="col-12">
+                                                    <b>Avalicao:</b> ★★★★★
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Em Destaque -->
+        <section id="destaque" class="row">
+            <div class="col-12">
+                <div class="container-fluid">
+
+                    <section id="title_func" class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <h1 id="em_destaque"><b>Destaque</b></h1>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 ">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle dpdown" type="button"
+                                    id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categoria: Todos
+                                </button>
+                                <ul class="dropdown-menu dpdown" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item dpdown" href="#">Live Action</a></li>
+                                    <li><a class="dropdown-item dpdown" href="#">Sci-Fi</a></li>
+                                    <li><a class="dropdown-item dpdown" href="#">Animação</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="cartaz_card" class="row">
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" widht="100%">
+                                <img src="https://img.elo7.com.br/product/original/3FBA809/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg"
+                                    class="card-img-top" alt="the batman">
+                                <div class="card-body">
+                                    <p class="card-text"><b>The Batman</b></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" widht="100%">
+                                <img src="https://www.magazine-hd.com/apps/wp/wp-content/uploads/2021/09/the-matrix-resurrections-poster.jpg"
+                                    class="card-img-top" alt="matrix res">
+                                <div class="card-body">
+                                    <p class="card-text"><b>Matrix Resurrections</b></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" widht="100%">
+                                <img src="https://uauposters.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/3/930720211216-uau-posters-spider-man-no-way-home-homem-aranha-sem-volta-pra-casa-filmes-7.jpg"
+                                    class="card-img-top" alt="spiderman no way home">
+                                <div class="card-body">
+                                    <p class="card-text"><b>Spiderman No Way Home</b></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="injustice" class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="card" widht="100%">
+                                <img src="https://topdezfilmes.info/wp-content/uploads/2021/10/MV5BYzA3ZmI1NzMtMTcxMi00ODg4LWFhMGItMTE2ZjIxODUzZTFiXkEyXkFqcGdeQXVyMTA1NzAwODMz._V1_.jpg"
+                                    class="card-img-top" alt="injustice">
+                                <div class="card-body">
+                                    <p class="card-text"><b>Injustice</b></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="load_more" class="row">
+
+                        <div class="col-12">
+                            <button type="button" class="btn btn-dark load_m">+ Carregar mais filmes</button>
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Ultimas Avaliacoes -->
+        <section id="avaliacoes" class="row">
+            <div class="col-12">
+                <div class="container-fluid">
+
+                    <section id="title_func" class="row aval_title">
+
+                        <div class="col-12">
+                            <h1><b>Ultimas Avaliações</b></h1>
+                        </div>
+
+                    </section>
+
+                    <section id="avalaliacoes" class="row">
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="container-fluid">
+                                <section id="avalx" class="row">
+                                    <div class="col-lg-3 col-md-12">
+                                        <div class="profile-header-container-fluid">
+                                            <img class="img-circle img_aval"
+                                                src="data:image/jpeg;base64,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"
+                                                height="100%" width="100%" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12 col-md-12">
+                                        <h6>Dr4kK1nght</h6>
+                                        <p><b>Avaliação:</b> The Batman, finalmente mostrou um entendimento do morcegão
+                                            nas midias populares. O filme seria perfeito se o final fosse melhor editado
+                                            e o personagem Bruce Wayne fosse diferenciado pelo roteiro de sua identidade
+                                            secreta(o Batman). Bruce é o disfarce, ele é sociavel não como o demonstrado
+                                            no filme.</p>
+                                        <p>★★★★☆ - 05/03/2022</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                            <div class="container-fluid">
+                                <section id="avalx" class="row">
+                                    <div class="col-lg-3 col-md-12">
+                                        <div class="profile-header-container-fluid">
+                                            <img class="img-circle img_aval"
+                                                src="https://wallpapercave.com/wp/wp2700196.png" height="100%"
+                                                width="100%" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12 col-md-12">
+                                        <h6>LigaProsAvengers</h6>
+                                        <p><b>Avaliação:</b>The Batman, não chegou aos pés de Homen Aranha. Infelizmente
+                                            a DC continua atrasada em sua luta por historias chatas e tristes. O filme é
+                                            todo preto e cinza, como a maioria. Pelo menos da pra assistir enquanto o
+                                            Doctor Strange não sai. Filme Mediocre!!!</p>
+                                        <p>★★☆☆☆ - 12/03/2022</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-4 col-lg-12 col-md-12">
+                            <div class="container-fluid">
+                                <section id="avalx" class="row">
+                                    <div class="col-xl-3 col-lg-12 col-md-12">
+                                        <div class="profile-header-container-fluid">
+                                            <img id="img_out" class="img-circle img_aval"
+                                                src="https://preview.redd.it/2gqtj2lya1w31.jpg?width=640&crop=smart&auto=webp&s=3d9df15f4d4737e4aa19931d59b1db443cbbb3af"
+                                                height="100%" width="100%" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-lg-12 col-md-12">
+                                        <h6>Dtectiv3</h6>
+                                        <p><b>Avaliação:</b> Modos interessantes de aprensentar cenas de crime +1. Foco
+                                            no dilema pessoal e regra auto-imposta do protagonista +1. Auto-critica
+                                            sobre o papel do heroi e sua ineficacia no combate crescente do crime nos
+                                            ultimos anos de sua atuação +1. Final cliche de ação em vez do embate de
+                                            ideais
+                                            e jogos mentais -1. Inserção de vilão super saturado para agradar as massas
+                                            -1.</p>
+                                        <p>★★★☆☆ - 03/03/2022</p>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <section id="load_more" class="row">
+
+                        <div class="col-12">
+                            <button type="button" class="btn btn-dark load_m">+ Carregar mais filmes</button>
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Entrevistas & Making of-->
+        <section id="makingof" class="row">
+            <div class="col-12">
+                <div class="container-fluid">
+
+                    <section id="title_func" class="row">
+
+                        <div class="col-12">
+                            <h1><b>Entrevistas & Making of</b></h1>
+                        </div>
+
+                    </section>
+
+                    <section id="mko_videos" class="row">
+                        <div class="col-xl-4 col-lg-12 col-md-12 mko_content">
+                            <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/_EyDqnD4Jjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                            <iframe class="mko_yt" width="100%" height="65%"
+                                src="https://www.youtube.com/embed/_EyDqnD4Jjo" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p class="mko_prg"><b>Filme:</b> The Batman<br>
+                                <b>Diretor:</b>Matt Reeves<br>
+                                <b>Entrevista:</b> Jovem Nerd <b>Estreia:</b> 03/03/2022
+                            </p>
+                        </div>
+                        <div class="col-xl-4 col-lg-12 col-md-12 mko_content">
+                            <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/USIaVdX6pow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                            <iframe class="mko_yt" width="100%" height="65%"
+                                src="https://www.youtube.com/embed/USIaVdX6pow""
+                                title=" YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p class="mko_prg"><b>Filme:</b> Matrix Resurrections<br>
+                                <b>Diretor:</b> Lana Wachowski<br>
+                                <b>Video por:</b> Stream Wars <b>Estreia:</b> 22/12/2021
+                            </p>
+                        </div>
+                        <div class="col-xl-4 col-lg-12 col-md-12 mko_content">
+                            <!--<iframe width="1271" height="715" src="https://www.youtube.com/embed/vaNa34yEEWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                            <iframe class="mko_yt" width="100%" height="65%"
+                                src="https://www.youtube.com/embed/vaNa34yEEWs" title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <p class="mko_prg"><b>Filme:</b> Spiderman No Way Home<br>
+                                <b>Diretor:</b>Jon Watts<br>
+                                <b>Entrevista:</b> Jimmy Fallon <b>Estreia:</b> 16/12/2021
+                            </p>
+                        </div>
+                    </section>
+
+                    <section id="load_more" class="row">
+
+                        <div class="col-12">
+                            <button type="button" class="btn btn-dark load_m">+ Carregar mais filmes</button>
+                        </div>
+
+                    </section>
+
+                </div>
+            </div>
+        </section>
+
+        <!--  Novidades/Sobre/Editorial -->
+
+        <section id="nov/sob/ed/rs" class="row">
+
+            <div id="novidades" class="col-xl-6 col-lg-12 col-md-12">
+                <div class="grid-cord1">
+                    <div class="container-fluid">
+
+                        <section id="title_func" class="row">
+                            <div class="col-12">
+                                <h1><b>Novidades</b></h1>
+                            </div>
+                        </section>
+
+                        <section id="novx" class="row">
+                            <div class="col-12">
+                                <section id="avalx" class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-12">
+
+                                        <img class="img-circle img_nov"
+                                            src="https://qph.fs.quoracdn.net/main-qimg-70e1884d15a5870aab562ec3516b1d95"
+                                            height="80%" width="100%" />
+
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12">
+                                        <h6><b>MCU fase 4:</b> </h6>
+                                        <p>Lista atualizada da nova fase Marvel. Todos os proximos filmes em ordem
+                                            cronologica. O que devemos esperar apos o Lançamento de Doctor Strang 2?
+                                            confira os planos dos diretores e suas expectativas para essa nova jornada
+                                            do universo cinematografico Marvel.
+
+                                        </p>
+
+                                        <p><button type="button"
+                                                class="btn btn-secondary type_nov bt_nov">Heróis</button>
+                                            <button type="button"
+                                                class="btn btn-secondary type_nov bt_nov">Marvel</button>
+                                        </p>
+
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+
+
+                        <section id="novx" class="row">
+                            <div class="col-12">
+                                <section id="avalx" class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-12">
+
+                                        <img class="img-circle img_nov"
+                                            src="https://multiversonoticias.com.br/wp-content/uploads/2022/04/ezra2-1130x580.webp"
+                                            height="80%" width="100%" />
+
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12">
+                                        <h6><b>Erza Miller pode estar fora do papel de Flash:</b> </h6>
+                                        <p>Apos uma briga de bar recente o astro foi preso, sendo solto apos pagar a
+                                            fiança. Infelizmente para ele alguns fans da DC não aprovaram as suas
+                                            atitudes e pediram pelas redes sociais o seu desligamento e subtituição em
+                                            petições nas redes sociais. Apesar de um grupo pequeno e vocal de acordo com
+                                            fontes da revista Rolling Stone, DC e a Warner tiveram uma reunião no dia 30
+                                            de março para discutir a permanencia do astro.
+
+                                        </p>
+
+                                        <p><button type="button"
+                                                class="btn btn-secondary type_nov bt_nov">Heróis</button>
+                                            <button type="button" class="btn btn-secondary type_nov bt_nov">DC</button>
+                                        </p>
+
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+
+                        <section id="novx" class="row">
+                            <div class="col-12">
+                                <section id="avalx" class="row">
+                                    <div class="col-lg-3 col-md-3 col-sm-12">
+                                        <img class="img-circle img_nov"
+                                            src="https://img1.ak.crunchyroll.com/i/spire4/4db3417ced788d4eb55085a0e2bbdbd71646166540_main.jpg"
+                                            height="80%" width="100%" />
+                                    </div>
+                                    <div class="col-lg-9 col-md-9 col-sm-12">
+                                        <h6><b>Novo filme de Fullmetal Alchemist :</b> </h6>
+                                        <p>Estreia em maio no Japão, um novo filme da saga. Continuando o primeiro filme
+                                            lançado em 2017, a warner anunciou nesta quarta-feira dia 13 de abril, duas
+                                            novas
+                                            continuações para o live action: Scar The Avenger e The Final Alchemy. Os
+                                            filmes serão lançados
+                                            em 20 de maio e 24 de junho, no Japão. Não há previsão de estreia no Brasil.
+
+                                        </p>
+
+                                        <p><button type="button" class="btn btn-secondary type_nov bt_nov">Live
+                                                Action</button>
+                                            <button type="button"
+                                                class="btn btn-secondary type_nov bt_nov">Adaptação</button>
+                                            <button type="button"
+                                                class="btn btn-secondary type_nov bt_nov">Japonês</button>
+                                        </p>
+
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="sob_ed_rs" class="col-xl-4 col-lg-12 col-md-12">
+                <div class="grid-cord1">
+                    <div class="container-fluid">
+
+
+                        <section id="sobre" class="row">
+                            <div class="col-12">
+                                <h1><b>Sobre</b></h1>
+                                <p>Portal sobre filmes geek/sci-fi/aventura/nerd. Procuramos trazer o maior compilado do
+                                    universo Pop-Geek atual, aqui voce encontra todas as novidades e informações para
+                                    sempre estar atualizado! Esse projeto é totalmente gratuito e tem como objetivo unir
+                                    a comunidade atravez da nossa paixão pela arte e pelo universo geek.</p>
+                            </div>
+                        </section>
+
+                        <section id="editorial" class="row">
+                            <div class="col-12">
+                                <h1><b>Editorial</b></h1>
+                                <p><i class="fa-solid fa-user"></i> <b>Redator:</b> Vinicius Lopes Aravedo Araujo</p>
+                                <p><i class="fa-solid fa-user"></i> <b>Pesquisa:</b> Vinicius Lopes Aravedo Araujo</p>
+                                <p><i class="fa-solid fa-user"></i> <b>Gerente Geral:</b> Vinicius Lopes Aravedo Araujo
+                                </p>
+                            </div>
+                        </section>
+
+                        <section id="redes_sociais" class="row">
+                            <div class="col-12">
+                                <h3><b>Redes Sociais</b></h3>
+                                <a href="https://www.facebook.com/" target="_blank" id="icon_rs"
+                                    class="fa-brands fa-facebook"></a>
+                                <a href="https://twitter.com/" id="icon_rs" target="_blank"
+                                    class="fa-brands fa-twitter"></a>
+                                <a href="https://www.instagram.com/" id="icon_rs" target="_blank"
+                                    class="fa-brands fa-instagram-square"></a>
+                                <a href="https://web.whatsapp.com/" id="icon_rs" target="_blank"
+                                    class="fa-brands fa-whatsapp"></a>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+    <!--Rodape-->
+    <footer id="footer">
+        <div class="container-fluid footer">
+            <section class="row">
+                <div id="footer_info" class="col-8">
+                    &copy;Copyright 2022 - Disciplina de Desenvolvimento de Interfaces Web - <b>ICEI PUC Minas</b>
+                </div>
+
+                <div id="footer_logo" class="col-4">
+                    <a href="https://www.pucminas.br/destaques/Paginas/default.aspx" target="_blank">
+                        <img src="https://varejointeligente.cdlbh.com.br/wp-content/uploads/2020/01/logo-puc-minas.png"
+                            alt="Logo" width="50px" height="50px"></a>
+                </div>
+
+            </section>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    -->
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
